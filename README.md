@@ -14,3 +14,7 @@ This is a weather forecast application developed using Flutter, fetching the lat
 - Riverpod: State management solution
 - Open Data API: Taiwan government open data platform, providing weather forecast data
 - Dio: HTTP client for Dart, used for API requests
+
+## Previews
+
+<img src="previews/preview_0.png" height="480px" /> <img src="previews/preview_1.png" height="480px" />
