@@ -1,16 +1,16 @@
-# flutter_weather_forecast
+# Weather Forecast
 
-A new Flutter project.
+This is a weather forecast application developed using Flutter, fetching the latest weather information through the Open Data API.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Real-time weather information: Utilizes the opendata API to obtain the latest weather forecast data
+- Intuitive user interface: Modern, responsive UI built with Flutter
+- Efficient state management: Uses Riverpod for application state management
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter: Cross-platform UI development framework
+- Riverpod: State management solution
+- Open Data API: Taiwan government open data platform, providing weather forecast data
+- Dio: HTTP client for Dart, used for API requests
