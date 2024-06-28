@@ -76,6 +76,8 @@ class _WeatherForecastSearchBarState
                   ref.watch(weatherForecastProvider).isLoading
               ? null
               : () {
+                  FocusManager.instance.primaryFocus?.unfocus();
+
                   ref
                       .read(weatherForecastProvider.notifier)
                       .query(_controller.text);
