@@ -64,9 +64,9 @@ class _WeatherForecastSearchBarState
             ),
             onSubmitted: (text) {
               if (text.isNotEmpty) {
-                 ref
-                      .read(weatherForecastProvider.notifier)
-                      .query(_controller.text);
+                ref
+                    .read(weatherForecastProvider.notifier)
+                    .query(_controller.text);
               }
             },
           ),
